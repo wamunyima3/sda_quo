@@ -97,7 +97,7 @@ class _SplashScreenState extends State<SplashScreen> {
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(
-          builder: (context) => const Home(title: 'pdf title'),
+          builder: (context) => const Home(title: 'pdf Viewer'),
         ),
       );
     }
